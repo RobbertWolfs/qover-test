@@ -1,0 +1,8 @@
+export const SAVE_USER = 'QOVER/USER/SAVE';
+export const SAVE_USER_ERRORS = 'QOVER/USER/SAVE/ERRORS';
+export const RESET_USER = 'QOVER/USER/RESET';
+
+export const ADD_CARS = 'QOVER/CARS/ADD';
+
+export const SET_QUOTE = 'QOVER/QUOTE/SET';
+export const SET_QUOTE_ERRORS = 'QOVER/QUOTE/SET/ERRORS';

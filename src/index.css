@@ -1,13 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+:root {
+    --blue: #317bda;
+    --blue-grey: #5b7289;
+    --greyish-brown: #484848;
+    --red: #ee3d57;
+    --blueish: #31cfda;
+
+    --color-gradient-start: var(--blue);;
+    --color-gradient-end: #33c3c8;
+}
+
+a {
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+i.fas {
+    margin: 0 5px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* FLEX UTILITY CLASSES */
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* BUTTON UTILITY CLASSES */
+.btn {
+    background-color: var(--blueish);
+    border-radius: 3px;
+    border: solid 1px transparent;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    height: 45px;
+    min-width: 150px;
+}
+
+.btn--secondary {
+    background-color: var(--blue);
+}
+
+.btn--transparent {
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn--white {
+    background: white;
+    color: var(--blueish);;
+}
+
+.btn--as-link {
+    background-color: transparent;
+    color: var(--blueish);
+    font-size: 14px;
+    font-weight: bold;
 }

@@ -1,0 +1,7 @@
+.logoutButton {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: auto;
+    z-index: 5;
+}

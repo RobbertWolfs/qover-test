@@ -1,0 +1,27 @@
+{
+    "cars": [
+        {
+            "type": "Audi",
+            "price": 250,
+            "percentage": 0.3
+        },
+        {
+            "type": "BMW",
+            "price": 150,
+            "percentage": 0.4
+        },
+        {
+            "type": "Porsche",
+            "price": 500,
+            "percentage": 0.7
+        }
+    ],
+    
+    "users": [
+        {
+            "id": "123123123",
+            "email": "Qover",
+            "password": "ba015e233362dcabcc80bf3cc4f6d0bd1b592d5fd8c4b37323522cb8def3c421"
+        }
+    ]
+}
